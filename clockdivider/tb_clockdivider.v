@@ -1,0 +1,43 @@
+`timescale 1ns / 1ps
+
+module tb_clockdivider;
+
+reg clock;             // Clock signal
+reg reset;             // Reset signal
+wire divided_clk2;     // Divided clock by 2
+wire divided_clk4;     // Divided clock by 4
+wire divided_clk8;     // Divided clock by 8
+
+integer i;
+
+clockdivider dut (
+    .clock(clock),
+    .reset(reset),
+    .divided_clk2(divided_clk2),
+    .divided_clk4(divided_clk4),
+    .divided_clk8(divided_clk8)
+);
+
+initial begin
+    $monitor("Time=%0dns: divided_clk2=%b, divided_clk4=%b, divided_clk8=%b", 
+             $time, divided_clk2, divided_clk4, divided_clk8);
+
+    // Initialize signals
+    clock = 0;
+    reset = 0;
+
+    // Test cases
+    reset = 1; #10;
+    reset = 0;
+
+    for (i = 0; i < 64; i = i + 1) begin
+        #5; // Wait for a clock cycle
+    end
+
+    $finish;
+end
+
+always #2 clock = ~clock; // Toggle the clock every 2 time units
+
+endmodule
+

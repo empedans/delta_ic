@@ -1,0 +1,56 @@
+# 0 compiles, 2 failed with no errors.
+# Error opening C:/Users/PC-01/Desktop/modelsim/4bitcounter.v
+# Path name 'C:/Users/PC-01/Desktop/modelsim/4bitcounter.v' doesn't exist.
+# Error opening C:/Users/PC-01/Desktop/modelsim/4bitcounter.v
+# Path name 'C:/Users/PC-01/Desktop/modelsim/4bitcounter.v' doesn't exist.
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v failed with 6 errors.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_fourbitcounter
+# vsim work.tb_fourbitcounter 
+# Start time: 17:26:58 on Aug 17,2023
+# Loading work.tb_fourbitcounter
+# Loading work.fourbitcounter
+add wave -position insertpoint sim:/tb_fourbitcounter/*
+add wave -position insertpoint sim:/tb_fourbitcounter/*
+# Error Wave Undo for wobj .main_pane.wave has not been initialized!
+#  Trace back: 
+#    <2:eval:1: ::Wave::UndoStart .main_pane.wave.interior.cs.body.pw.wf
+#    <1:proc:59: ::Wave::ExecOp insert .main_pane.wave.interior.cs.body.pw.wf -position insertpoint sim:/tb_fourbitcounter/*
+# expected integer but got ""
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v(32)
+#    Time: 90 ns  Iteration: 0  Instance: /tb_fourbitcounter
+# 1
+# Break in Module tb_fourbitcounter at C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v line 32
+quit -sim
+# End time: 17:28:05 on Aug 17,2023, Elapsed time: 0:01:07
+# Errors: 0, Warnings: 5
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of 4bitcounter.v was successful.
+# Compile of tb_4bitcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_fourbitcounter
+# vsim work.tb_fourbitcounter 
+# Start time: 17:30:06 on Aug 17,2023
+# Loading work.tb_fourbitcounter
+# Loading work.fourbitcounter
+add wave -position insertpoint sim:/tb_fourbitcounter/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v(32)
+#    Time: 90 ns  Iteration: 0  Instance: /tb_fourbitcounter
+# 1
+# Break in Module tb_fourbitcounter at C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v line 32
+# End time: 17:32:31 on Aug 17,2023, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 4

@@ -1,0 +1,118 @@
+# Compile of clockdivider.v was successful.
+# Compile of tb_clockdivider.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of clockdivider.v was successful.
+# Compile of tb_clockdivider.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_clockdivider
+# vsim work.tb_clockdivider 
+# Start time: 18:22:11 on Aug 19,2023
+# Loading work.tb_clockdivider
+# Loading work.clockdivider
+add wave -position insertpoint sim:/tb_clockdivider/*
+run -all
+# Time=0ns: divided_clk2=x, divided_clk4=x, divided_clk8=x, divided_clk16=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_clockdivider.v(39)
+#    Time: 330 ns  Iteration: 0  Instance: /tb_clockdivider
+# 1
+# Break in Module tb_clockdivider at C:/Users/PC-01/Desktop/modelsim/tb_clockdivider.v line 39
+quit -sim
+# End time: 18:22:50 on Aug 19,2023, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 7
+# Compile of clockdivider.v was successful.
+# Compile of tb_clockdivider.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_clockdivider
+# vsim work.tb_clockdivider 
+# Start time: 18:26:03 on Aug 19,2023
+# Loading work.tb_clockdivider
+# Loading work.clockdivider
+add wave -position insertpoint sim:/tb_clockdivider/*
+run -all
+# Time=0ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=10ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=14ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=18ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=22ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=26ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=30ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=34ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=38ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=42ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=46ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=50ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=54ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=58ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=62ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=66ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=70ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=74ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=78ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=82ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=86ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=90ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=94ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=98ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=102ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=106ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=110ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=114ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=118ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=122ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=126ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=130ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=134ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=138ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=142ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=146ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=150ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=154ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=158ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=162ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=166ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=170ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=174ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=178ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=182ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=186ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=190ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=194ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=198ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=202ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=206ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=210ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=214ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=218ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=222ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=226ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=230ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=234ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=238ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=242ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=246ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=250ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=254ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=258ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=262ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=266ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=270ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=274ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=278ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=282ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=286ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=290ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=294ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# Time=298ns: divided_clk2=1, divided_clk4=0, divided_clk8=0
+# Time=302ns: divided_clk2=0, divided_clk4=1, divided_clk8=0
+# Time=306ns: divided_clk2=1, divided_clk4=1, divided_clk8=0
+# Time=310ns: divided_clk2=0, divided_clk4=0, divided_clk8=1
+# Time=314ns: divided_clk2=1, divided_clk4=0, divided_clk8=1
+# Time=318ns: divided_clk2=0, divided_clk4=1, divided_clk8=1
+# Time=322ns: divided_clk2=1, divided_clk4=1, divided_clk8=1
+# Time=326ns: divided_clk2=0, divided_clk4=0, divided_clk8=0
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_clockdivider.v(37)
+#    Time: 330 ns  Iteration: 0  Instance: /tb_clockdivider
+# 1
+# Break in Module tb_clockdivider at C:/Users/PC-01/Desktop/modelsim/tb_clockdivider.v line 37
+# End time: 18:27:23 on Aug 19,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 2

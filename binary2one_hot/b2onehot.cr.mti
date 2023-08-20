@@ -1,0 +1,15 @@
+C:/Users/PC-01/Desktop/modelsim/b2onehot.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/b2onehot.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module b2onehot
+
+Top level modules:
+	b2onehot
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/tb_b2onehot.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_b2onehot.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_b2onehot
+
+Top level modules:
+	tb_b2onehot
+
+} {} {}}

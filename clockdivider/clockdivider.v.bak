@@ -1,0 +1,37 @@
+`timescale 1ns / 1ps
+
+module clockdivider(
+    input wire clock, // Clock input
+    input wire reset, // Reset input
+    output wire divided_clk2, // Divided clock by 2
+    output wire divided_clk4, // Divided clock by 4
+    output wire divided_clk8, // Divided clock by 8
+    output wire divided_clk16 // Divided clock by 16
+);
+
+reg [1:0] counter_2; // 2-bit counter for dividing the clock by 2
+reg [2:0] counter_4; // 3-bit counter for dividing the clock by 4
+reg [3:0] counter_8; // 4-bit counter for dividing the clock by 8
+reg [4:0] counter_16; // 5-bit counter for dividing the clock by 16
+
+always @(posedge clock or posedge reset) begin
+    if (reset) begin
+        counter_2 <= 2'b00; // Reset the counter for division by 2
+        counter_4 <= 3'b000; // Reset the counter for division by 4
+        counter_8 <= 4'b0000; // Reset the counter for division by 8
+        counter_16 <= 5'b00000; // Reset the counter for division by 16
+    end
+    else begin
+        counter_2 <= counter_2 + 1; // Increment the counter for division by 2
+        counter_4 <= counter_4 + 1; // Increment the counter for division by 4
+        counter_8 <= counter_8 + 1; // Increment the counter for division by 8
+        counter_16 <= counter_16 + 1; // Increment the counter for division by 16
+    end
+end
+
+assign divided_clk2 = (counter_2 == 2'd1) ? ~divided_clk2 : divided_clk2;
+assign divided_clk4 = (counter_4 == 3'd2) ? ~divided_clk4 : divided_clk4;
+assign divided_clk8 = (counter_8 == 4'd4) ? ~divided_clk8 : divided_clk8;
+assign divided_clk16 = (counter_16 == 5'd8) ? ~divided_clk16 : divided_clk16;
+
+endmodule

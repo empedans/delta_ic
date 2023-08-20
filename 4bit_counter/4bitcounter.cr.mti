@@ -1,0 +1,15 @@
+C:/Users/PC-01/Desktop/modelsim/4bitcounter.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/4bitcounter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fourbitcounter
+
+Top level modules:
+	fourbitcounter
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_4bitcounter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_fourbitcounter
+
+Top level modules:
+	tb_fourbitcounter
+
+} {} {}}
