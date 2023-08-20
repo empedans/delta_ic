@@ -1,0 +1,15 @@
+C:/Users/PC-01/Desktop/modelsim/johnson.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/johnson.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module johnson
+
+Top level modules:
+	johnson
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/tb_johnson.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_johnson.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_johnson
+
+Top level modules:
+	tb_johnson
+
+} {} {}}

@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+
+module tb_comparator;
+
+reg [3:0] A;      // Example N-bit input A (adjust N as needed)
+reg [3:0] B;      // Example N-bit input B (adjust N as needed)
+wire greater;     // Output: A > B
+wire equal;       // Output: A == B
+wire less;        // Output: A < B
+
+comparator dut (
+    .A(A),
+    .B(B),
+    .greater(greater),
+    .equal(equal),
+    .less(less)
+);
+
+initial begin
+    $monitor("Time=%0dns: A=%b, B=%b, greater=%b, equal=%b, less=%b",
+             $time, A, B, greater, equal, less);
+
+    // Test cases
+    A = 4'b1010; B = 4'b0110; #10;
+    A = 4'b0010; B = 4'b0010; #10;
+    A = 4'b0100; B = 4'b1010; #10;
+    
+    $finish;
+end
+
+endmodule
+

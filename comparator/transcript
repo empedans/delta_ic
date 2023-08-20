@@ -1,0 +1,48 @@
+# Compile of comparator.v was successful.
+# Compile of tb_comparator.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of comparator.v failed with 9 errors.
+# Compile of tb_comparator.v was successful.
+# 2 compiles, 1 failed with 9 errors.
+# Compile of comparator.v was successful.
+# Compile of tb_comparator.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of comparator.v was successful.
+# Compile of tb_comparator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_comparator
+# vsim work.tb_comparator 
+# Start time: 20:26:34 on Aug 17,2023
+# Loading work.tb_comparator
+# Loading work.comparator
+add wave -position insertpoint sim:/tb_comparator/*
+run -all
+# Time=0ns: A=1010, B=0110, greater=1, equal=0, less=0
+# Time=10ns: A=0010, B=0010, greater=0, equal=1, less=0
+# Time=20ns: A=1100, B=1010, greater=1, equal=0, less=0
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_comparator.v(28)
+#    Time: 30 ns  Iteration: 0  Instance: /tb_comparator
+# 1
+# Break in Module tb_comparator at C:/Users/PC-01/Desktop/modelsim/tb_comparator.v line 28
+quit -sim
+# End time: 20:27:26 on Aug 17,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 9
+# Compile of comparator.v was successful.
+# Compile of tb_comparator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_comparator
+# vsim work.tb_comparator 
+# Start time: 20:27:41 on Aug 17,2023
+# Loading work.tb_comparator
+# Loading work.comparator
+add wave -position insertpoint sim:/tb_comparator/*
+run -all
+# Time=0ns: A=1010, B=0110, greater=1, equal=0, less=0
+# Time=10ns: A=0010, B=0010, greater=0, equal=1, less=0
+# Time=20ns: A=0100, B=1010, greater=0, equal=0, less=1
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_comparator.v(28)
+#    Time: 30 ns  Iteration: 0  Instance: /tb_comparator
+# 1
+# Break in Module tb_comparator at C:/Users/PC-01/Desktop/modelsim/tb_comparator.v line 28
+# End time: 20:28:33 on Aug 17,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2

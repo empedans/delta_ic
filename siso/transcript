@@ -1,0 +1,94 @@
+# Compile of siso.v was successful.
+# Compile of tb_siso.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of siso.v was successful.
+# Compile of tb_siso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_siso
+# vsim work.tb_siso 
+# Start time: 17:45:28 on Aug 18,2023
+# Loading work.tb_siso
+# Loading work.siso
+add wave -position insertpoint sim:/tb_siso/*
+run -all
+# Time=0ns: serial_in=0, serial_out=0
+# Time=10ns: serial_in=1, serial_out=0
+# Time=20ns: serial_in=0, serial_out=0
+# Time=30ns: serial_in=1, serial_out=0
+# Time=40ns: serial_in=0, serial_out=0
+# Time=45ns: serial_in=0, serial_out=1
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_siso.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_siso
+# 1
+# Break in Module tb_siso at C:/Users/PC-01/Desktop/modelsim/tb_siso.v line 34
+quit -sim
+# End time: 17:46:18 on Aug 18,2023, Elapsed time: 0:00:50
+# Errors: 0, Warnings: 7
+# Compile of siso.v was successful.
+# Compile of tb_siso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_siso
+# vsim work.tb_siso 
+# Start time: 17:55:08 on Aug 18,2023
+# Loading work.tb_siso
+# Loading work.siso
+add wave -position insertpoint sim:/tb_siso/*
+run -all
+# Time=0ns: serial_in=0, serial_out=x
+# Time=5ns: serial_in=0, serial_out=0
+# Time=10ns: serial_in=1, serial_out=0
+# Time=20ns: serial_in=0, serial_out=0
+# Time=30ns: serial_in=1, serial_out=0
+# Time=40ns: serial_in=0, serial_out=0
+# Time=45ns: serial_in=0, serial_out=1
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_siso.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_siso
+# 1
+# Break in Module tb_siso at C:/Users/PC-01/Desktop/modelsim/tb_siso.v line 34
+quit -sim
+# End time: 17:56:04 on Aug 18,2023, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 2
+# Compile of siso.v was successful.
+# Compile of tb_siso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_siso
+# vsim work.tb_siso 
+# Start time: 17:56:20 on Aug 18,2023
+# Loading work.tb_siso
+# Loading work.siso
+add wave -position insertpoint sim:/tb_siso/*
+run -all
+# Time=0ns: serial_in=0, serial_out=x
+# Time=5ns: serial_in=0, serial_out=0
+# Time=30ns: serial_in=1, serial_out=0
+# Time=40ns: serial_in=0, serial_out=0
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_siso.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_siso
+# 1
+# Break in Module tb_siso at C:/Users/PC-01/Desktop/modelsim/tb_siso.v line 34
+quit -sim
+# End time: 17:56:40 on Aug 18,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# Compile of siso.v was successful.
+# Compile of tb_siso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_siso
+# vsim work.tb_siso 
+# Start time: 17:57:08 on Aug 18,2023
+# Loading work.tb_siso
+# Loading work.siso
+add wave -position insertpoint sim:/tb_siso/*
+run -all
+# Time=0ns: serial_in=0, serial_out=x
+# Time=5ns: serial_in=0, serial_out=0
+# Time=10ns: serial_in=1, serial_out=0
+# Time=20ns: serial_in=0, serial_out=0
+# Time=30ns: serial_in=1, serial_out=0
+# Time=40ns: serial_in=0, serial_out=0
+# Time=45ns: serial_in=0, serial_out=1
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_siso.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_siso
+# 1
+# Break in Module tb_siso at C:/Users/PC-01/Desktop/modelsim/tb_siso.v line 34
+# End time: 17:57:52 on Aug 18,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2

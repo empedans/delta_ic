@@ -1,0 +1,22 @@
+`timescale 1ns / 1ps
+
+module siso(
+    input wire clock, // Clock input
+    input wire reset, // Reset input
+    input wire serial_in, // Serial input
+    output wire serial_out // Serial output
+);
+
+reg [3:0] shift_reg; // 4-bit shift register
+
+always @(posedge clock) begin
+    if (reset)
+        shift_reg <= 4'b0; // Reset the shift register
+    else
+        shift_reg <= {serial_in, shift_reg[3:1]}; // Shift the data right
+end
+
+assign serial_out = shift_reg[0]; // Serial output from the rightmost bit
+
+endmodule
+

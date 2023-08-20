@@ -1,0 +1,16 @@
+C:/Users/PC-01/Desktop/modelsim/carry_la.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/carry_la.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module carry_la
+-- Compiling module FullAdder
+
+Top level modules:
+	carry_la
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/tb_carry_la.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_carry_la.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_carry_la
+
+Top level modules:
+	tb_carry_la
+
+} {} {}}

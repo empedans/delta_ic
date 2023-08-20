@@ -1,0 +1,32 @@
+`timescale 1ns / 1ps
+module tb_ringcounter;
+
+reg clk;
+reg rst;
+
+wire [7:0] count; // You can change the width as needed
+
+ringcounter uut (
+    .clk(clk),
+    .rst(rst),
+    .count(count)
+);
+
+always begin
+    #5 clk = ~clk; // Clock signal with 10ns period
+end
+
+initial begin
+    clk = 0;
+    rst = 1;
+
+    #15 rst = 0;
+
+    // Monitor the count output
+    $monitor("Time=%0dns: clk=%b, rst=%b, count=%b", $time, clk, rst, count);
+
+    // Simulate for 50ns
+    #50 $finish;
+end
+
+endmodule

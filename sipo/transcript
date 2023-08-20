@@ -1,0 +1,82 @@
+# Compile of sipo.v was successful.
+# Compile of tb_sipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of sipo.v was successful.
+# Compile of tb_sipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of sipo.v was successful.
+# Compile of tb_sipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_sipo
+# vsim work.tb_sipo 
+# Start time: 18:04:27 on Aug 18,2023
+# Loading work.tb_sipo
+# Loading work.sipo
+add wave -position insertpoint sim:/tb_sipo/*
+run -all
+# Time=0ns: serial_in=0, parallel_out=0000
+# Time=10ns: serial_in=1, parallel_out=0000
+# Time=15ns: serial_in=1, parallel_out=0001
+# Time=20ns: serial_in=0, parallel_out=0001
+# Time=25ns: serial_in=0, parallel_out=0010
+# Time=30ns: serial_in=1, parallel_out=0010
+# Time=35ns: serial_in=1, parallel_out=0101
+# Time=40ns: serial_in=0, parallel_out=0101
+# Time=45ns: serial_in=0, parallel_out=1010
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_sipo.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_sipo
+# 1
+# Break in Module tb_sipo at C:/Users/PC-01/Desktop/modelsim/tb_sipo.v line 34
+quit -sim
+# End time: 18:05:49 on Aug 18,2023, Elapsed time: 0:01:22
+# Errors: 0, Warnings: 8
+# Compile of sipo.v was successful.
+# Compile of tb_sipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_sipo
+# vsim work.tb_sipo 
+# Start time: 18:06:16 on Aug 18,2023
+# Loading work.tb_sipo
+# Loading work.sipo
+add wave -position insertpoint sim:/tb_sipo/*
+run -all
+# Time=0ns: serial_in=0, parallel_out=xxxx
+# Time=5ns: serial_in=0, parallel_out=0000
+# Time=10ns: serial_in=1, parallel_out=0000
+# Time=15ns: serial_in=1, parallel_out=0001
+# Time=20ns: serial_in=0, parallel_out=0001
+# Time=25ns: serial_in=0, parallel_out=0010
+# Time=30ns: serial_in=1, parallel_out=0010
+# Time=35ns: serial_in=1, parallel_out=0101
+# Time=40ns: serial_in=0, parallel_out=0101
+# Time=45ns: serial_in=0, parallel_out=1010
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_sipo.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_sipo
+# 1
+# Break in Module tb_sipo at C:/Users/PC-01/Desktop/modelsim/tb_sipo.v line 34
+quit -sim
+# End time: 18:08:09 on Aug 18,2023, Elapsed time: 0:01:53
+# Errors: 0, Warnings: 2
+vsim work.tb_sipo
+# vsim work.tb_sipo 
+# Start time: 18:08:16 on Aug 18,2023
+# Loading work.tb_sipo
+# Loading work.sipo
+add wave -position insertpoint sim:/tb_sipo/*
+run -all
+# Time=0ns: serial_in=0, parallel_out=xxxx
+# Time=5ns: serial_in=0, parallel_out=0000
+# Time=10ns: serial_in=1, parallel_out=0000
+# Time=15ns: serial_in=1, parallel_out=0001
+# Time=20ns: serial_in=0, parallel_out=0001
+# Time=25ns: serial_in=0, parallel_out=0010
+# Time=30ns: serial_in=1, parallel_out=0010
+# Time=35ns: serial_in=1, parallel_out=0101
+# Time=40ns: serial_in=0, parallel_out=0101
+# Time=45ns: serial_in=0, parallel_out=1010
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_sipo.v(34)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_sipo
+# 1
+# Break in Module tb_sipo at C:/Users/PC-01/Desktop/modelsim/tb_sipo.v line 34
+# End time: 18:08:59 on Aug 18,2023, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 1

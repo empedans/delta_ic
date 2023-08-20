@@ -1,0 +1,33 @@
+# Compile of pipo.v was successful.
+# Compile of tb_pipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of pipo.v was successful.
+# Compile of tb_pipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of pipo.v was successful.
+# Compile of tb_pipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of pipo.v was successful.
+# Compile of tb_pipo.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_pipo
+# vsim work.tb_pipo 
+# Start time: 20:01:59 on Aug 18,2023
+# Loading work.tb_pipo
+# Loading work.pipo
+add wave -position insertpoint sim:/tb_pipo/*
+run -all
+# Time=0ns: parallel_in=0000, parallel_out=0000
+# Time=10ns: parallel_in=1010, parallel_out=0000
+# Time=15ns: parallel_in=1010, parallel_out=1010
+# Time=20ns: parallel_in=1100, parallel_out=1010
+# Time=25ns: parallel_in=1100, parallel_out=1100
+# Time=30ns: parallel_in=0011, parallel_out=1100
+# Time=35ns: parallel_in=0011, parallel_out=0011
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_pipo.v(33)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_pipo
+# 1
+# Break in Module tb_pipo at C:/Users/PC-01/Desktop/modelsim/tb_pipo.v line 33
+quit -sim
+# End time: 20:03:19 on Aug 18,2023, Elapsed time: 0:01:20
+# Errors: 0, Warnings: 9

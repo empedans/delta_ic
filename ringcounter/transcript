@@ -1,0 +1,398 @@
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ringcounter.v failed with 7 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 7 errors.
+# Compile of ringcounter.v failed with 7 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 7 errors.
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 17:53:01 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_ringcounter' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ringcounter/dut File: C:/Users/PC-01/Desktop/modelsim/ringcounter.v
+# Error loading design
+# End time: 17:53:02 on Aug 16,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 12
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 17:53:34 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: C:/Users/PC-01/Desktop/modelsim/ringcounter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ringcounter/dut File: C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v Line: 9
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=zzzz0000
+# Time=20ns: clk=0, rst=0, count=zzzz0000
+# Time=25ns: clk=1, rst=0, count=zzzz0000
+# Time=30ns: clk=0, rst=0, count=zzzz0000
+# Time=35ns: clk=1, rst=0, count=zzzz0000
+# Time=40ns: clk=0, rst=0, count=zzzz0000
+# Time=45ns: clk=1, rst=0, count=zzzz0000
+# Time=50ns: clk=0, rst=0, count=zzzz0000
+# Time=55ns: clk=1, rst=0, count=zzzz0000
+# Time=60ns: clk=0, rst=0, count=zzzz0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 17:54:16 on Aug 16,2023, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 3
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 17:55:52 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (8) for port 'count'. The port definition is at: C:/Users/PC-01/Desktop/modelsim/ringcounter.v(3).
+#    Time: 0 ps  Iteration: 0  Instance: /tb_ringcounter/uut File: C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v Line: 9
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=zzzz0000
+# Time=20ns: clk=0, rst=0, count=zzzz0000
+# Time=25ns: clk=1, rst=0, count=zzzz0000
+# Time=30ns: clk=0, rst=0, count=zzzz0000
+# Time=35ns: clk=1, rst=0, count=zzzz0000
+# Time=40ns: clk=0, rst=0, count=zzzz0000
+# Time=45ns: clk=1, rst=0, count=zzzz0000
+# Time=50ns: clk=0, rst=0, count=zzzz0000
+# Time=55ns: clk=1, rst=0, count=zzzz0000
+# Time=60ns: clk=0, rst=0, count=zzzz0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 17:56:19 on Aug 16,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 3
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 17:58:04 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 17:59:28 on Aug 16,2023, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:02:07 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:02:59 on Aug 16,2023, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:03:50 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:04:17 on Aug 16,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:05:09 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:05:29 on Aug 16,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v failed with 6 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 6 errors.
+# Compile of ringcounter.v failed with 5 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of ringcounter.v failed with 4 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of ringcounter.v failed with 4 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 4 errors.
+# Compile of ringcounter.v failed with 3 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v failed with 3 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v failed with 3 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 3 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v failed with 2 errors.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 1 failed with 2 errors.
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:33:04 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:33:28 on Aug 16,2023, Elapsed time: 0:00:24
+# Errors: 0, Warnings: 15
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:34:01 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0000
+# Time=20ns: clk=0, rst=0, count=0000
+# Time=25ns: clk=1, rst=0, count=0000
+# Time=30ns: clk=0, rst=0, count=0000
+# Time=35ns: clk=1, rst=0, count=0000
+# Time=40ns: clk=0, rst=0, count=0000
+# Time=45ns: clk=1, rst=0, count=0000
+# Time=50ns: clk=0, rst=0, count=0000
+# Time=55ns: clk=1, rst=0, count=0000
+# Time=60ns: clk=0, rst=0, count=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:34:28 on Aug 16,2023, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:35:58 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=1110
+# Time=20ns: clk=0, rst=0, count=1110
+# Time=25ns: clk=1, rst=0, count=1111
+# Time=30ns: clk=0, rst=0, count=1111
+# Time=35ns: clk=1, rst=0, count=1111
+# Time=40ns: clk=0, rst=0, count=1111
+# Time=45ns: clk=1, rst=0, count=1111
+# Time=50ns: clk=0, rst=0, count=1111
+# Time=55ns: clk=1, rst=0, count=1111
+# Time=60ns: clk=0, rst=0, count=1111
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:37:00 on Aug 16,2023, Elapsed time: 0:01:02
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:39:40 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0001
+# Time=20ns: clk=0, rst=0, count=0001
+# Time=25ns: clk=1, rst=0, count=0011
+# Time=30ns: clk=0, rst=0, count=0011
+# Time=35ns: clk=1, rst=0, count=0111
+# Time=40ns: clk=0, rst=0, count=0111
+# Time=45ns: clk=1, rst=0, count=1111
+# Time=50ns: clk=0, rst=0, count=1111
+# Time=55ns: clk=1, rst=0, count=1111
+# Time=60ns: clk=0, rst=0, count=1111
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:40:24 on Aug 16,2023, Elapsed time: 0:00:44
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:41:54 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0001
+# Time=20ns: clk=0, rst=0, count=0001
+# Time=25ns: clk=1, rst=0, count=0010
+# Time=30ns: clk=0, rst=0, count=0010
+# Time=35ns: clk=1, rst=0, count=0100
+# Time=40ns: clk=0, rst=0, count=0100
+# Time=45ns: clk=1, rst=0, count=1000
+# Time=50ns: clk=0, rst=0, count=1000
+# Time=55ns: clk=1, rst=0, count=0001
+# Time=60ns: clk=0, rst=0, count=0001
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:42:41 on Aug 16,2023, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+# Compile of ringcounter.v was successful.
+# Compile of tb_ringcounter.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_ringcounter
+# vsim work.tb_ringcounter 
+# Start time: 18:47:54 on Aug 16,2023
+# Loading work.tb_ringcounter
+# Loading work.ringcounter
+add wave -position insertpoint sim:/tb_ringcounter/*
+run -all
+# Time=15ns: clk=1, rst=0, count=0100
+# Time=20ns: clk=0, rst=0, count=0100
+# Time=25ns: clk=1, rst=0, count=0010
+# Time=30ns: clk=0, rst=0, count=0010
+# Time=35ns: clk=1, rst=0, count=0001
+# Time=40ns: clk=0, rst=0, count=0001
+# Time=45ns: clk=1, rst=0, count=1000
+# Time=50ns: clk=0, rst=0, count=1000
+# Time=55ns: clk=1, rst=0, count=0100
+# Time=60ns: clk=0, rst=0, count=0100
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v(29)
+#    Time: 65 ns  Iteration: 0  Instance: /tb_ringcounter
+# 1
+# Break in Module tb_ringcounter at C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v line 29
+quit -sim
+# End time: 18:49:21 on Aug 16,2023, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2

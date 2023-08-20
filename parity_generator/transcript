@@ -1,0 +1,66 @@
+# Compile of parity_generator.v was successful.
+# Compile of tb_parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of parity_generator.v was successful.
+# Compile of tb_parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_parity_generator
+# vsim work.tb_parity_generator 
+# Start time: 16:35:04 on Aug 17,2023
+# Loading work.tb_parity_generator
+# ** Error: (vsim-3033) Instantiation of 'parity_generator3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_parity_generator File: C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v Line: 6
+#         Searched libraries:
+#             C:/Users/PC-01/Desktop/modelsim/work
+# Error loading design
+# End time: 16:35:05 on Aug 17,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 7
+# Compile of parity_generator.v was successful.
+# Compile of tb_parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_parity_generator
+# vsim work.tb_parity_generator 
+# Start time: 16:35:27 on Aug 17,2023
+# Loading work.tb_parity_generator
+# ** Error: (vsim-3033) Instantiation of 'parity_generator3' failed. The design unit was not found.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_parity_generator File: C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v Line: 6
+#         Searched libraries:
+#             C:/Users/PC-01/Desktop/modelsim/work
+# Error loading design
+# End time: 16:35:27 on Aug 17,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of parity_generator.v was successful.
+# Compile of tb_parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_parity_generator
+# vsim work.tb_parity_generator 
+# Start time: 16:35:51 on Aug 17,2023
+# Loading work.tb_parity_generator
+# Loading work.parity_generator
+add wave -position insertpoint sim:/tb_parity_generator/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v(20)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_parity_generator
+# 1
+# Break in Module tb_parity_generator at C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v line 20
+quit -sim
+# End time: 16:36:33 on Aug 17,2023, Elapsed time: 0:00:42
+# Errors: 0, Warnings: 2
+# Compile of parity_generator.v was successful.
+# Compile of tb_parity_generator.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_parity_generator
+# vsim work.tb_parity_generator 
+# Start time: 16:37:11 on Aug 17,2023
+# Loading work.tb_parity_generator
+# Loading work.parity_generator
+add wave -position insertpoint sim:/tb_parity_generator/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v(20)
+#    Time: 40 ns  Iteration: 0  Instance: /tb_parity_generator
+# 1
+# Break in Module tb_parity_generator at C:/Users/PC-01/Desktop/modelsim/tb_parity_generator.v line 20
+quit -sim
+# Break key hit
+# End time: 16:38:07 on Aug 17,2023, Elapsed time: 0:00:56
+# Errors: 0, Warnings: 3

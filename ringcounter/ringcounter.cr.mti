@@ -1,0 +1,15 @@
+C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_ringcounter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_ringcounter
+
+Top level modules:
+	tb_ringcounter
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/ringcounter.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/ringcounter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module ringcounter
+
+Top level modules:
+	ringcounter
+
+} {} {}}

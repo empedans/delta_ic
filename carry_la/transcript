@@ -1,0 +1,32 @@
+# Compile of carry_la.v was successful.
+# Compile of tb_carry_la.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of carry_la.v was successful.
+# Compile of tb_carry_la.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of carry_la.v was successful.
+# Compile of tb_carry_la.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of carry_la.v was successful.
+# Compile of tb_carry_la.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of carry_la.v was successful.
+# Compile of tb_carry_la.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_carry_la
+# vsim work.tb_carry_la 
+# Start time: 20:16:19 on Aug 17,2023
+# Loading work.tb_carry_la
+# Loading work.carry_la
+# Loading work.FullAdder
+add wave -position insertpoint sim:/tb_carry_la/*
+run -all
+# Time=0ns: A=0010, B=0110, Sum=1000, Cout=0
+# Time=10ns: A=1010, B=1100, Sum=0110, Cout=1
+# Time=20ns: A=1111, B=0001, Sum=0000, Cout=1
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_carry_la.v(24)
+#    Time: 30 ns  Iteration: 0  Instance: /tb_carry_la
+# 1
+# Break in Module tb_carry_la at C:/Users/PC-01/Desktop/modelsim/tb_carry_la.v line 24
+# End time: 20:18:09 on Aug 17,2023, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 10

@@ -1,0 +1,15 @@
+C:/Users/PC-01/Desktop/modelsim/sipo.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/sipo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sipo
+
+Top level modules:
+	sipo
+
+} {} {}} C:/Users/PC-01/Desktop/modelsim/tb_sipo.v {1 {vlog -work work -stats=none C:/Users/PC-01/Desktop/modelsim/tb_sipo.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module tb_sipo
+
+Top level modules:
+	tb_sipo
+
+} {} {}}
