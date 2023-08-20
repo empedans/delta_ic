@@ -1,0 +1,108 @@
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:32:15 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+add wave -position insertpoint sim:/tb_bidirectional/*
+run -all
+# Time=0ns: out=xxxx
+# Time=2ns: out=xxx0
+# Time=6ns: out=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v(40)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_bidirectional
+# 1
+# Break in Module tb_bidirectional at C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v line 40
+quit -sim
+# End time: 17:34:20 on Aug 20,2023, Elapsed time: 0:02:05
+# Errors: 0, Warnings: 7
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:35:17 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+add wave -position insertpoint sim:/tb_bidirectional/*
+run -all
+# Time=0ns: out=xxxx
+# Time=2ns: out=xxx0
+# Time=6ns: out=0000
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v(40)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_bidirectional
+# 1
+# Break in Module tb_bidirectional at C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v line 40
+quit -sim
+# End time: 17:36:04 on Aug 20,2023, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 2
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:37:22 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_bidirectional' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bidirectional/sr0 File: C:/Users/PC-01/Desktop/modelsim/bidirectional.v
+# Error loading design
+# End time: 17:37:22 on Aug 20,2023, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 2
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:37:41 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+# ** Error (suppressible): (vsim-3009) [TSCALE] - Module 'tb_bidirectional' does not have a timeunit/timeprecision specification in effect, but other modules do.
+#    Time: 0 ps  Iteration: 0  Instance: /tb_bidirectional/sr0 File: C:/Users/PC-01/Desktop/modelsim/bidirectional.v
+# Error loading design
+# End time: 17:37:42 on Aug 20,2023, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 2
+# Compile of bidirectional.v was successful.
+# Compile of tb_bidirectional.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:37:58 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+add wave -position insertpoint sim:/tb_bidirectional/*
+run -all
+# rstn=0 data=1, en=0, dir=0, out=xxxx
+# rstn=0 data=1, en=0, dir=0, out=0000
+# rstn=1 data=1, en=1, dir=0, out=0000
+# rstn=1 data=0, en=1, dir=0, out=0001
+# rstn=1 data=1, en=1, dir=0, out=0010
+# rstn=1 data=0, en=1, dir=0, out=0101
+# rstn=1 data=1, en=1, dir=0, out=1010
+# rstn=1 data=0, en=1, dir=0, out=0101
+# rstn=1 data=1, en=1, dir=0, out=1010
+# rstn=1 data=0, en=1, dir=0, out=0101
+# rstn=1 data=0, en=1, dir=1, out=0101
+# rstn=1 data=1, en=1, dir=1, out=0010
+# rstn=1 data=0, en=1, dir=1, out=1001
+# rstn=1 data=1, en=1, dir=1, out=0100
+# rstn=1 data=0, en=1, dir=1, out=1010
+# rstn=1 data=1, en=1, dir=1, out=0101
+# rstn=1 data=0, en=1, dir=1, out=1010
+# rstn=1 data=1, en=1, dir=1, out=0101
+# rstn=1 data=1, en=1, dir=1, out=1010
+# rstn=1 data=1, en=1, dir=1, out=1101
+# rstn=1 data=1, en=1, dir=1, out=1110
+# rstn=1 data=1, en=1, dir=1, out=1111
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v(53)
+#    Time: 730 ns  Iteration: 0  Instance: /tb_bidirectional
+# 1
+# Break in Module tb_bidirectional at C:/Users/PC-01/Desktop/modelsim/tb_bidirectional.v line 53
+quit -sim
+# End time: 17:41:15 on Aug 20,2023, Elapsed time: 0:03:17
+# Errors: 0, Warnings: 2
