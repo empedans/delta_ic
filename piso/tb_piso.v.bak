@@ -1,0 +1,36 @@
+module tb_piso;
+    reg clk;
+    reg rst;
+    reg [3:0] parallel_data;
+    wire serial_out;
+
+    // Instance of the module to be tested
+    piso dut (
+        .clk(clk),
+        .rst(rst),
+        .parallel_data(parallel_data),
+        .serial_out(serial_out)
+    );
+
+    initial begin
+        clk = 0;
+        rst = 1;
+        parallel_data = 4'b0000;
+
+        #10 rst = 0; // Release reset
+
+        // Test data
+        parallel_data = 4'b1101;
+        #10;
+        parallel_data = 4'b1010;
+        #10;
+        parallel_data = 4'b0110;
+        #10;
+
+        $finish; // End simulation
+    end
+
+    always #5 clk = ~clk; // Clock generation
+
+endmodule
+

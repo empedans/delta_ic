@@ -1,0 +1,197 @@
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_bidirectional
+# vsim work.tb_bidirectional 
+# Start time: 17:53:40 on Aug 20,2023
+# Loading work.tb_bidirectional
+# Loading work.bidirectional
+quit -sim
+# End time: 17:53:52 on Aug 20,2023, Elapsed time: 0:00:12
+# Errors: 0, Warnings: 7
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 17:54:07 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# Time=0ns: parallel_in=0000, serial_out=0
+# Time=10ns: parallel_in=1011, serial_out=1
+# Time=15ns: parallel_in=1011, serial_out=0
+# Time=25ns: parallel_in=1011, serial_out=1
+# Time=35ns: parallel_in=1011, serial_out=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(32)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 32
+quit -sim
+# End time: 17:57:02 on Aug 20,2023, Elapsed time: 0:02:55
+# Errors: 0, Warnings: 1
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 17:57:13 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# Time=0ns: parallel_in=0000, serial_out=0
+# Time=10ns: parallel_in=1011, serial_out=1
+# Time=15ns: parallel_in=1011, serial_out=0
+# Time=25ns: parallel_in=1011, serial_out=1
+# Time=35ns: parallel_in=1011, serial_out=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(32)
+#    Time: 60 ns  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 32
+quit -sim
+# End time: 17:57:36 on Aug 20,2023, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 2
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 17:58:40 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# Time=0ns: parallel_in=0000, serial_out=0
+# Time=10ns: parallel_in=1011, serial_out=1
+# Time=15ns: parallel_in=1011, serial_out=0
+# Time=25ns: parallel_in=1011, serial_out=1
+# Time=35ns: parallel_in=1011, serial_out=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(32)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 32
+quit -sim
+# End time: 17:59:31 on Aug 20,2023, Elapsed time: 0:00:51
+# Errors: 0, Warnings: 2
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:07:01 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(30)
+#    Time: 70 ps  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 30
+quit -sim
+# End time: 18:08:10 on Aug 20,2023, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of piso.v failed with 1 errors.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 1 failed with 1 error.
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:12:13 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(30)
+#    Time: 70 ps  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 30
+quit -sim
+# End time: 18:12:35 on Aug 20,2023, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 4
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:12:38 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(30)
+#    Time: 70 ps  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 30
+quit -sim
+# End time: 18:19:39 on Aug 20,2023, Elapsed time: 0:07:01
+# Errors: 0, Warnings: 1
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:19:59 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(30)
+#    Time: 40 ps  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 30
+quit -sim
+# End time: 18:20:36 on Aug 20,2023, Elapsed time: 0:00:37
+# Errors: 0, Warnings: 2
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+# Compile of piso.v was successful.
+# Compile of tb_piso.v was successful.
+# 2 compiles, 0 failed with no errors.
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:25:13 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+run -all
+# Time=0ns: parallel_in=0000, serial_out=x
+# Time=5ns: parallel_in=0000, serial_out=0
+# Time=10ns: parallel_in=1011, serial_out=0
+# Time=15ns: parallel_in=1011, serial_out=1
+# Time=25ns: parallel_in=1011, serial_out=0
+# Time=35ns: parallel_in=1011, serial_out=1
+# Time=45ns: parallel_in=1011, serial_out=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(32)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 32
+add wave -position insertpoint sim:/tb_piso/#INITIAL#17/*
+quit -sim
+# End time: 18:25:33 on Aug 20,2023, Elapsed time: 0:00:20
+# Errors: 0, Warnings: 4
+vsim work.tb_piso
+# vsim work.tb_piso 
+# Start time: 18:25:35 on Aug 20,2023
+# Loading work.tb_piso
+# Loading work.piso
+add wave -position insertpoint sim:/tb_piso/*
+run -all
+# Time=0ns: parallel_in=0000, serial_out=x
+# Time=5ns: parallel_in=0000, serial_out=0
+# Time=10ns: parallel_in=1011, serial_out=0
+# Time=15ns: parallel_in=1011, serial_out=1
+# Time=25ns: parallel_in=1011, serial_out=0
+# Time=35ns: parallel_in=1011, serial_out=1
+# Time=45ns: parallel_in=1011, serial_out=x
+# ** Note: $finish    : C:/Users/PC-01/Desktop/modelsim/tb_piso.v(32)
+#    Time: 50 ns  Iteration: 0  Instance: /tb_piso
+# 1
+# Break in Module tb_piso at C:/Users/PC-01/Desktop/modelsim/tb_piso.v line 32
+# End time: 18:26:56 on Aug 20,2023, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 1
